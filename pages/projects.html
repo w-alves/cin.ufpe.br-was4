@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/d4cfba5694.js" crossorigin="anonymous"></script>
+    <title>Projetos | Wesley Alves</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <a href="../index.html">
+                <h4>W-ALVES</h4>
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="aboutme.html">Sobre</a></li>
+            <li><a href="projects.html">Projetos</a></li>
+            <li><a href="texts.html">Textos</a></li>
+            <li><a href="#contact">Contate-me</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <header id="top">
+        <div class="central-board">
+            <img src="../assets/wesley.jpg" alt="Wesley Alves">
+            <h1>WESLEY ALVES</h1>
+            <p>Data Science | Machine Learning</p>
+            <a href="#projects" class="button">Baixar CV</a>
+        </div>
+    </header>
+
+    <section id="white-boxes">
+        <h1>Projetos</h1>
+
+        <a href="https://github.com/w-alves" target="_blank">
+            <div id="float-box">
+                <div id="grid-float-box">
+                    <div class="pic"><img src="../assets/chestxray.jpg" alt=""></div>
+                    <div class="details">
+                        <h3>Identificação de pneumonia em exames de raio-x</h3>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://github.com/w-alves/credit_card_fraud_detection" target="_blank">
+            <div id="float-box">
+                <div id="grid-float-box">
+                    <div class="pic"><img src="../assets/creditcard.jpg" alt=""></div>
+                    <div class="details">
+                        <h3>Detecção de fraude em transações de cartão de crédito</h3>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://github.com/w-alves/leads-recommender" target="_blank">
+            <div id="float-box">
+                <div id="grid-float-box">
+                    <div class="pic"><img src="../assets/leads.jpg" alt=""></div>
+                    <div class="details">
+                        <h3>Recomendação de clientes em potencial para empresas</h3>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+    </section>
+
+    <section id="contact">
+        <div class="grid-container">
+            <div class="formspree">
+                <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
+                    action="https://formspree.io/mdopoyej" method="post">
+                    <fieldset id="fs-frm-inputs">
+                        <label for="full-name">Nome completo</label>
+                        <input type="text" name="name" id="full-name" placeholder="" required="">
+                        <label for="email-address">Email</label>
+                        <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld"
+                            required="">
+                        <label for="message">Menssagem</label>
+                        <textarea rows="5" name="message" id="message" placeholder="Digite aqui sua mensagem"
+                            required=""></textarea>
+                        <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                    </fieldset>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+
+            <div class="phone">
+                <i class="fas fa-phone-alt"></i>
+                <p><a href="tel:81984258970"> (81) 98425 8970 </a></p>
+            </div>
+            <div class="email">
+                <i class="fas fa-envelope"></i>
+                <p><a href="mailto:was4@cin.ufpe.br"> was4@cin.ufpe.br </a></p>
+            </div>
+            <div class="adress">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Recife - PE</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Desenvolvido por Wesley Alves</p>
+    </footer>
+
+    <script src="../app.js"></script>
+</body>
+
+</html>

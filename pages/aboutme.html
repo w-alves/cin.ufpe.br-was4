@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/d4cfba5694.js" crossorigin="anonymous"></script>
+    <title>Sobre | Wesley Alves</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <a href="../index.html">
+                <h4>W-ALVES</h4>
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="aboutme.html">Sobre</a></li>
+            <li><a href="projects.html">Projetos</a></li>
+            <li><a href="texts.html">Textos</a></li>
+            <li><a href="#contact">Contate-me</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <header id="top">
+        <div class="central-board">
+            <img src="../assets/wesley.jpg" alt="Wesley Alves">
+            <h1>WESLEY ALVES</h1>
+            <p>Data Science | Machine Learning</p>
+            <a href="#projects" class="button">Baixar CV</a>
+        </div>
+    </header>
+
+    <section id="white-boxes">
+        <h1>Sobre mim</h1>
+        <div id="float-box">
+            <h2>Breve resumo</h2>
+            <p>Me chamo Wesley Alves, tenho 19 anos, sou estudante de Ciência da Computação na Universidade Federal de
+                Pernambuco (Recife, Brasil) e apaixonado por Ciência de Dados e Inteligência Artificial. Este site tem o
+                objetivo principal de ser o local onde as pessoas podem me encontrar e se atualizar sobre o que estou
+                fazendo.</p>
+            <br>
+            <p>Como um estudante, decidi escrever artigos com o objetivo de tentar retribuir tudo o que a internet me
+                proporcionou ao longo dos anos em termos de conhecimento, tanto no que diz respeito à minha área de
+                atuação como em outras áreas mais diversas.</p>
+            <br>
+            <p>Também estou procurando uma primeira oportunidade de aplicar meu conhecimento e trabalhar em soluções de
+                machine learning e relacionadas a dados em sua organização. Se você se interessar, entre em contato
+                comigo por uma das formas no rodapé da página.</p>
+        </div>
+
+        <div id="float-box">
+            <h2>Habilidades</h2>
+            <div class="skills">
+                <div class="false-button">Python</div>
+                <div class="false-button">Machine Learning</div>
+                <div class="false-button">Deep Learning</div>
+                <div class="false-button">MySQL/SQLite</div>
+                <div class="false-button">Data Storytelling</div>
+                <div class="false-button">Análise de Dados</div>
+                <div class="false-button">Visualização de Dados</div>
+                <div class="false-button">Processamento de Dados</div>
+                <div class="false-button">Scikit-learn</div>
+                <div class="false-button">Tensorflow/Keras</div>
+                <div class="false-button">Numpy/Scipy</div>
+                <div class="false-button">Matplotlib/Seaborn</div>
+            </div>
+        </div>
+
+        <div id="float-box">
+            <h2>Educação</h2>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Instituto</th>
+                            <th>Curso</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Universidade Federal de Pernambuco</td>
+                            <td>Bacharelado em Ciência da Computação</td>
+                            <td>Em andamento</td>
+                        </tr>
+                        <tr>
+                            <td>Data Science Academy</td>
+                            <td>Python Fundamentos para Análise de Dados</td>
+                            <td>Concluído</td>
+                        </tr>
+                        <tr>
+                            <td>Codenation</td>
+                            <td>AceleraDev DataScience Online</td>
+                            <td>Concluído</td>
+                        </tr>
+                        <tr>
+                            <td>Deeplearning.ai</td>
+                            <td>Neural Networks and Deep Learning</td>
+                            <td>Concluído</td>
+                        </tr>
+                        <tr>
+                            <td>Deeplearning.ai</td>
+                            <td>Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
+                            </td>
+                            <td>Concluído</td>
+                        </tr>
+                        <tr>
+                            <td>Deeplearning.ai</td>
+                            <td>Neural Networks and Deep Learning</td>
+                            <td>Concluído</td>
+                        </tr>
+                        <tr>
+                            <td>Deeplearning.ai</td>
+                            <td>Convolutional Neural Networks</td>
+                            <td>Concluído</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <div class="grid-container">
+            <div class="formspree">
+                <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
+                    action="https://formspree.io/mdopoyej" method="post">
+                    <fieldset id="fs-frm-inputs">
+                        <label for="full-name">Nome completo</label>
+                        <input type="text" name="name" id="full-name" placeholder="" required="">
+                        <label for="email-address">Email</label>
+                        <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld"
+                            required="">
+                        <label for="message">Menssagem</label>
+                        <textarea rows="5" name="message" id="message" placeholder="Digite aqui sua mensagem"
+                            required=""></textarea>
+                        <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                    </fieldset>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+
+            <div class="phone">
+                <i class="fas fa-phone-alt"></i>
+                <p><a href="tel:81984258970"> (81) 98425 8970 </a></p>
+            </div>
+            <div class="email">
+                <i class="fas fa-envelope"></i>
+                <p><a href="mailto:was4@cin.ufpe.br"> was4@cin.ufpe.br </a></p>
+            </div>
+            <div class="adress">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Recife - PE</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Desenvolvido por Wesley Alves</p>
+    </footer>
+    <script src="../app.js"></script>
+</body>
+
+</html>
