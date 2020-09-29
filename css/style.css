@@ -136,7 +136,7 @@ header p {
     color: white;
 }
 
-#float-box {
+.float-box {
     display: block;
     margin-top: 20px;
     height: auto;
@@ -150,7 +150,7 @@ header p {
     color: black;
 }
 
-#float-box p {
+.float-box p {
     font-size: 18px;
 }
 
@@ -184,7 +184,7 @@ header p {
     font-weight: bold;
 }
 
-#grid-float-box {
+.grid-float-box {
     display: grid;
     position: relative;
     align-items: center;
@@ -532,7 +532,7 @@ footer a {
         padding-left: 15px;
     }
 
-    #float-box {
+    .float-box {
         margin-right: 5vh;
         margin-left: 5vh;
     }
@@ -597,7 +597,7 @@ footer a {
         display: block;
     }
 
-    #float-box p {
+    .float-box p {
         font-size: 14px;
     }
 
@@ -647,7 +647,7 @@ footer a {
     transform: rotate(+45deg) translate(-5px, -6px);
 }
 
-#float-box {
+.float-box {
     transform: translateX(150px);
     animation: come-in 0.5s ease forwards, fade-in 1s ease forwards;
 }
